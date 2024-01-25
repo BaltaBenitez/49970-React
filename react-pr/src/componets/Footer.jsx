@@ -3,7 +3,7 @@ import SocialMedia from "./SocialMedia";
 
 const Footer = () =>  {
     return(
-        <div className="container-fluid bg-dark my-5">
+        <div className="container-fluid bg-dark1 my-5">
             <div className="container">
                 <div className="row">
                     <div className="col-md-6">
@@ -13,16 +13,16 @@ const Footer = () =>  {
                     <div className="col"></div>
                     <div className="col-md-2">
                         <ul className="nav">
-                            <li className="nav-item fs-5"><a className="nav-link" href="#">Help & FAQs</a></li>
-                            <li className="nav-item fs-5"><a className="nav-link" href="#">Delivery & returns</a></li>
-                            <li className="nav-item fs-5"><a className="nav-link" href="#">Size charts</a></li>
-                            <li className="nav-item fs-5"><a className="nav-link" href="#">Gift cards</a></li>
+                            <li className="nav-item fs-5"><a className="nav-link text-light" href="#">Help & FAQs</a></li>
+                            <li className="nav-item fs-5"><a className="nav-link text-light" href="#">Delivery & returns</a></li>
+                            <li className="nav-item fs-5"><a className="nav-link text-light" href="#">Size charts</a></li>
+                            <li className="nav-item fs-5"><a className="nav-link text-light" href="#">Gift cards</a></li>
                         </ul>
                     </div>
                     <div className="col-md-2">
                         <ul className="nav">
-                            <li className="nav-item fs-5"><a className="nav-link" href="#">Contact us</a></li>
-                            <li className="nav-item fs-5"><a className="nav-link" href="#">Store locations</a></li>
+                            <li className="nav-item fs-5"><a className="nav-link text-light" href="#">Contact us</a></li>
+                            <li className="nav-item fs-5"><a className="nav-link text-light" href="#">Store locations</a></li>
                             <li className="nav-item fs-5"><p className="nav-link text-light">Social media:</p></li>
                             <SocialMedia />
                         </ul>
