@@ -5,7 +5,7 @@ import Header from "./componets/Header"
 import "./index.css"
 import { BrowserRouter, Routes, Route} from "react-router-dom"
 
-const App = () => {
+const App = () => {//tres productos por cada equipo
   return (
     <>
       <Header />
