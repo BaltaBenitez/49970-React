@@ -33,7 +33,7 @@ const NavBar = () => {
                         <a className="nav-link text-light fs-5" href="#">Ropa</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link text-light fs-5" href="#">Minifiguras</a>
+                        <a className="nav-link text-light fs-5" href="#">Figuras</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link text-light fs-5" href="#">Accesorios</a>
