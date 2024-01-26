@@ -7,12 +7,15 @@ import { BrowserRouter, Routes, Route} from "react-router-dom"
 
 const App = () => {//tres productos por cada equipo
   return (
-    <>
+    <BrowserRouter>
       <Header />
-      {/* <ItemListContainer greeting={"Disculpe la pagina se esta creando. "}/> */}
+      {/* <ItemListContainer greeting={"Disculpe la pagina se esta creando."}/> */}
+      <Routes>
+        <Route></Route>
+      </Routes>
       <CardsContainer />
       <Footer />
-    </>
+    </BrowserRouter>
   )
 }
 

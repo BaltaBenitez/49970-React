@@ -1,0 +1,6 @@
+[
+    {"id": 1, "imgUrl": "https://assets.redbullshop.com/f_auto,q_auto/t_subshop-select-background/content/Facelift_Assets_22/Subshop_selector_cards/RBR.png", "imgAlt": "Oracle Red Bull Racing", "destails": ""},
+    {"id": 2, "imgUrl": "https://assets.redbullshop.com/f_auto,q_auto/t_subshop-select-background/content/Facelift_Assets_22/Subshop_selector_cards/SAT.png", "imgAlt": "Scuderia AlphaTauri", "destails": ""},
+    {"id": 3, "imgUrl": "https://assets.redbullshop.com/f_auto,q_auto/t_subshop-select-background/content/Facelift_Assets_22/Subshop_selector_cards/KTM.png", "imgAlt": "Red Bull KTM Racing Team", "destails": ""},
+    {"id": 4, "imgUrl": "https://assets.redbullshop.com/f_auto,q_auto/t_subshop-select-background/content/Facelift_Assets_22/Subshop_selector_cards/Ampol.png", "imgAlt": "Red Bull Ampol Racing", "destails": ""}
+]
