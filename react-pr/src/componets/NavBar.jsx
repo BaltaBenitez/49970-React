@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import CarWidget from "./CarWidget";
 
 const NavBar = () => {
@@ -6,21 +7,21 @@ const NavBar = () => {
             <div className="col">
                 <ul className="nav ">
                     <li className="nav-item">
-                        <a className="nav-link text-light fs-5" href="#">Lo más nuevo</a>
+                        <NavLink className="nav-link text-light fs-5" to={"/contenido"}>LO MÁS NUEVO</NavLink>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link text-light fs-5" href="#">Ropa</a>
+                        <NavLink className="nav-link text-light fs-5" to={"/categoria/ropa"}>ROPA</NavLink>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link text-light fs-5" href="#">Figuras</a>
+                        <NavLink className="nav-link text-light fs-5" to={"/categoria/figuras"}>FIGURAS</NavLink>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link text-light fs-5" href="#">Accesorios</a>
+                        <NavLink className="nav-link text-light fs-5" to={"/categoria/accesorios"}>ACCESORIOS</NavLink>
                     </li>
                 </ul>
             </div>
             <div className="col-md-1 d-flex align-items-center justify-content-end text-end">
-                <a className="nav-link text-dark fs-5" href="#"><CarWidget /></a>
+                <NavLink className="nav-link text-dark fs-5" to={"#"}><CarWidget /></NavLink>
             </div>
         </div>
     )
