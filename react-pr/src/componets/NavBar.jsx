@@ -1,11 +1,11 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import CarWidget from "./CarWidget";
 
 const NavBar = () => {
     return (
         <div className="row">
             <div className="col">
-                <ul className="nav ">
+                <ul className="nav">
                     <li className="nav-item">
                         <NavLink className="nav-link text-light fs-5" to={"/contenido"}>LO MÁS NUEVO</NavLink>
                     </li>
