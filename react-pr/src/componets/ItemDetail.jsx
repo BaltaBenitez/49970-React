@@ -7,9 +7,9 @@ const ItemDetail = ({item}) => {
                 </div>
                 <div className="col-md-6">
                     <div className="card-body">
-                        <h6 className="card-title m-5"><b>{item.title}</b></h6>
-                        <p className="card-text m-5">{item.description}</p>
-                        <p className="card-text text-center fs-3">${item.price}</p>
+                        <h5 className="card-title m-5"><b>{item.title}</b></h5>
+                        <p className="card-text text-dark m-5">{item.description}</p>
+                        <p className="card-text text-center fs-3">${item.price}</p>{/* agregar btn */}
                     </div>
                 </div>
             </div>

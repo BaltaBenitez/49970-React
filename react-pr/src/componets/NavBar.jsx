@@ -10,13 +10,13 @@ const NavBar = () => {
                         <NavLink className="nav-link text-light fs-5" to={"/contenido"}>LO MÁS NUEVO</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink className="nav-link text-light fs-5" to={"/categoria/ropa"}>ROPA</NavLink>
+                        <NavLink className="nav-link text-light fs-5" to={"/category/ropa"}>ROPA</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink className="nav-link text-light fs-5" to={"/categoria/figuras"}>FIGURAS</NavLink>
+                        <NavLink className="nav-link text-light fs-5" to={"/category/figuras"}>FIGURAS</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink className="nav-link text-light fs-5" to={"/categoria/accesorios"}>ACCESORIOS</NavLink>
+                        <NavLink className="nav-link text-light fs-5" to={"/category/accesorios"}>ACCESORIOS</NavLink>
                     </li>
                 </ul>
             </div>
