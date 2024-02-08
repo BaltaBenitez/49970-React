@@ -1,3 +1,5 @@
+import ItemCount from "./ItemCount";
+
 const ItemDetail = ({item}) => {
     return(
         <div className="container border-bottom">
@@ -9,7 +11,10 @@ const ItemDetail = ({item}) => {
                     <div className="card-body">
                         <h5 className="card-title m-5"><b>{item.title}</b></h5>
                         <p className="card-text text-dark m-5">{item.description}</p>
-                        <p className="card-text text-center fs-3">${item.price}</p>{/* agregar btn */}
+                        <p className="card-text text-center fs-3">${item.price}</p>
+                        <div className="container">
+                            <ItemCount stock={20}/>
+                        </div>
                     </div>
                 </div>
             </div>

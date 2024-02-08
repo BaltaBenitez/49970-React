@@ -8,7 +8,7 @@ const Item = ({item}) => {
                     <img src={item.image} className="card-img-top" alt={item.title} />
                     <div className="card-body">
                         <p className="card-text">{item.title}</p>
-                        <p><b>$ {item.price}</b></p> {/* agregar btn row y col */}
+                        <p><b>$ {item.price}</b></p>
                     </div>
                 </Link>
             </div>
