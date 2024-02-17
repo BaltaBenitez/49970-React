@@ -1,6 +1,13 @@
+import { useContext } from "react";
 import ItemCount from "./ItemCount";
+import { CardContext } from "./context/CardContext";
 
 const ItemDetail = ({item}) => {
+    const {addItem} = useContext(CardContext);
+    const onAdd = (quantity) => {
+        addItem(item, quantity);
+    }
+
     return(
         <div className="container border-bottom">
             <div className="row g-o">
@@ -10,10 +17,11 @@ const ItemDetail = ({item}) => {
                 <div className="col-md-6">
                     <div className="card-body">
                         <h5 className="card-title m-5"><b>{item.title}</b></h5>
+                        <div className="text-star mx-5">{item.new === true ? <p className="card-text btn btn-danger px-5">NUEVO</p> : null}</div>
                         <p className="card-text text-dark m-5">{item.description}</p>
                         <p className="card-text text-center fs-3">${item.price}</p>
                         <div className="container">
-                            <ItemCount stock={20}/>
+                            <ItemCount stock={20} onAdd={onAdd} />
                         </div>
                     </div>
                 </div>

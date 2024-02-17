@@ -9,7 +9,7 @@ const Header = () => {
                     <div className="col-md-2">
                         <Logo/>
                     </div>
-                    <div className="col-md-10">{/* d-flex align-items-center */}
+                    <div className="col-md-10">
                         <NavBar />
                     </div>
                 </div>
