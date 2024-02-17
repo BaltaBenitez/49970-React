@@ -1,4 +1,4 @@
-import CardsContainer from "./componets/CardsContainer";
+import CardsContainer from "./componets/CardContainer/CardsContainer"
 import Footer from "./componets/Footer"
 import Header from "./componets/Header"
 import ItemDetailContainer from "./componets/ItemDetailContainer";
