@@ -29,13 +29,15 @@ const NEWitem = () => {
             <div className="row">
                 {items.map(it => (
                     <div key={it.id} className="col-md-3">
-                        <div className="card">
-                            <img src={it.image} className="card-img-top" alt="..." />
-                            <div className="card-body">
-                                <p className="bg-danger rounded text-white text-center">NUEVO</p>
-                                <p className="card-text">{it.title}</p>
-                                <p className="card-text text-center">{it.price}</p>
-                            </div>
+                        <div className="card border-dark">
+                            <Link className="text-dark text-decoration-none"to={"/item/" + it.id}>
+                                <img src={it.image} className="card-img-top" alt="..." />
+                                <div className="card-body">
+                                    <h5 className="bg-danger rounded text-white text-center">NUEVO</h5>
+                                    <h5 className="card-text">{it.title}</h5>
+                                    <h5 className="card-text text-center"><b>$ {it.price}</b></h5>
+                                </div>
+                            </Link>
                         </div>
                     </div>
                 ))}
