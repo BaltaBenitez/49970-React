@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import LogoRB from "../assets/nav_redbullcom-logo.png"
+import LogoRB from "../../assets/nav_redbullcom-logo.png"
 
 const Logo = () => {
     return  (

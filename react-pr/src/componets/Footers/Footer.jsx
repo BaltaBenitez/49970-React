@@ -1,4 +1,4 @@
-import Logo from "./Logo";
+import Logo from "../Headers/Logo";
 import SocialMedia from "./SocialMedia";
 
 const Footer = () =>  {
