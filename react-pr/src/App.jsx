@@ -1,5 +1,6 @@
 import CardsContainer from "./componets/CardContainer/CardsContainer"
 import Cart from "./componets/Cart";
+import Checkout from "./componets/Checkout";
 import Error404 from "./componets/Error404";
 import Footer from "./componets/Footers/Footer"
 import Header from "./componets/Headers/Header"
@@ -20,6 +21,7 @@ const App = () => {
           <Route path={"/category/:id"} element={<ItemListContainer />}/>
           <Route path={"/item/:id"} element={<ItemDetailContainer />}/>
           <Route path={"/cart"} element={<Cart />}/>
+          <Route path={"/checkout"} element={<Checkout />}/>
           <Route path={"*"} element={<Error404 />}/>
         </Routes>
         <Footer />

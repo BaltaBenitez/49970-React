@@ -28,7 +28,7 @@ const NEWitem = () => {
         <div className="container my-5">
             <div className="row">
                 {items.map(it => (
-                    <div key={it.id} className="col-md-3">
+                    <div key={it.idx} className="col-md-3">
                         <div className="card border-dark">
                             <Link className="text-dark text-decoration-none"to={"/item/" + it.id}>
                                 <img src={it.image} className="card-img-top" alt="..." />
