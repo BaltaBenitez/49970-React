@@ -33,7 +33,7 @@ const Checkout = () => {
             <div className="container text-center">
                 <div className="row">
                     <div className="col-md-6">
-                        <FormUser onSubmit={generarOrden} /> {/* Aquí se agrega el componente FormUser */}
+                        <FormUser onSubmit={generarOrden} />
                     </div>
                     <div className="col-md-6">
                         <table className="table table-info my-5">

@@ -6,7 +6,7 @@ const CardsContainer = () => {
         <>
             <div className="container">
                 <Card />
-                {/* <NEWitem /> */}
+                <NEWitem />
             </div>
         </>
     )

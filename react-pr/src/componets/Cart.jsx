@@ -3,7 +3,7 @@ import { CardContext } from "./context/CardContext";
 import { Link } from "react-router-dom";
 
 const Cart = () => {
-    const {cart, cantTotalProductos, sumaTotalProductos} = useContext(CardContext);
+    const {cart, removeItem, cantTotalProductos, sumaTotalProductos} = useContext(CardContext);
     
     if (cantTotalProductos() == 0) {
         return(

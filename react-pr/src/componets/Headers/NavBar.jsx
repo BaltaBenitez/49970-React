@@ -7,7 +7,7 @@ const NavBar = () => {
             <div className="row">
                 <ul className="nav">
                     <li className="nav-item">
-                        <NavLink className="nav-link text-light fs-5" to={"/contenido"}>LO MáS NUEVO</NavLink>
+                        <NavLink className="nav-link text-light fs-5" to={"/contenido"}>DE TODO</NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink className="nav-link text-light fs-5" to={"/category/ropa"}>ROPA</NavLink>
