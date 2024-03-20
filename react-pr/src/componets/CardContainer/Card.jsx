@@ -10,9 +10,9 @@ const Card = () => {
 
     return(
         <div className="container">
-            <div className="row border-bottom border-primary p-3 thick-border">
+            <div className="row p-3">
                 {contenidos.map(cont => (
-                    <div key={cont.id} className="col">
+                    <div key={cont.id} className="col-md-4">
                         <img src={cont.imgUrl} className="img-fluid" alt={cont.imgAlt}/>
                         <p className="text-center text-black my-2">{cont.title}</p>
                     </div>

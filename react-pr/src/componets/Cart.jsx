@@ -42,7 +42,7 @@ const Cart = () => {
                         <tr>
                             <td colSpan={3}><h5><b>Suma Total:</b></h5></td>
                             <td><h5><b >$ {sumaTotalProductos()}</b></h5></td>
-                            <td><a href="#" className="btn btn-outline-success rounded" ><i class="bi bi-check-square"></i> Confirmar</a></td>
+                            <td><a href="#" className="btn btn-outline-success rounded" ><i className="bi bi-check-square"></i> Confirmar</a></td>
                         </tr>
                     </tbody>
                 </table>
